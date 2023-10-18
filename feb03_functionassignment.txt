@@ -1,0 +1,26 @@
+Q1. Which keyword is used to create a function? Create a function to return a list of odd numbers in the
+range of 1 to 25.
+In Python, the keyword used to create a function is def.
+* Example will be at .ipyb file
+Q2. Why *args and **kwargs is used in some functions? Create a function each for *args and **kwargs to demonstrate their use.
+*args and **kwargs are special syntax in Python that allow you to work with a variable number of arguments in a function. 
+*args (Arbitrary Arguments):
+*args allows you to pass a variable number of non-keyword (positional) arguments to a function.
+It collects these arguments into a tuple within the function, which you can then iterate through or use in various ways.
+**kwargs (Arbitrary Keyword Arguments):
+**kwargs allows you to pass a variable number of keyword arguments to a function.
+It collects these keyword arguments into a dictionary within the function, where the keys are the argument names, and the values are the corresponding argument values.
+* Example will be at .ipyb file
+Q3. What is an iterator in python? Name the method used to initialise the iterator object and the method used for iteration. Use these methods to print the first five elements of the given list [2, 4, 6, 8, 10, 12, 14, 16, 18, 20].
+An iterator in Python is an object that represents a stream of data, allowing you to iterate over its elements one at a time. Iterators are used to efficiently process large datasets or sequences of items without the need to load the entire dataset into memory. you typically follow these two main steps:
+Initialize the iterator object: You can initialize an iterator from an iterable (like a list) using the iter() function or directly in a for loop.
+Iteration: You can retrieve the next item in the sequence using the next() function or by using a for loop.
+* Example will be at .ipyb file
+Q4. What is a generator function in python? Why yield keyword is used? Give an example of a generator function.
+A generator function in Python is a special type of function that allows you to create an iterator. Unlike regular functions, which return a value and exit when they encounter a return statement, generator functions use the yield keyword to produce a sequence of values while preserving their state. This makes generator functions efficient for generating large sequences of data or working with data that doesn't need to be stored entirely in memory.
+The yield keyword is used to produce a value from a generator function, but it doesn't exit the function entirely. Instead, it suspends the function's state, allowing it to be resumed from where it left off the next time a value is requested.
+* Example will be at .ipyb file
+Q5. Create a generator function for prime numbers less than 1000. Use the next() method to print the first 20 prime numbers.
+* Example will be at .ipyb file
+
+

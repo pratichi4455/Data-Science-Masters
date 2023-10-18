@@ -1,0 +1,53 @@
+Q1. What are the characteristics of the tuples? Is tuple immutable?
+Answer: Tuples are the build in data types of python that are used to take objects as collections. These collections can be empty, single value, multiple values with commas. Tuples can store numeric, String, floating and Boolean values.
+Characteristics of Tuples:
+1. Tuples are immutable. We cannot change the values of tuple.
+2. Tuples can contain duplicate values.
+3. Tuples have Only 2 build in methods. We can access them with :.” Separator.
+Yes tuples are immutable. We cannot change the value of tuples after assignment. That’s why we can user tuples as key in dictionary.
+Q2. What are the two tuple methods in python? Give an example of each method. Give a reason why tuples have only two in-built methods as compared to Lists.
+Answer: Tuples have only 2 built-in methods those are:
+1. Count()
+2. Index()
+* For example I will perform task on ipyb lab and will share screenshot as well
+Tuples are immutable, meaning once you create a tuple, you cannot change its contents. This immutability ensures that the tuple's elements remain constant throughout its lifetime. As a result, there is no need for methods that modify the tuple, such as append(), insert(), extend(), remove(), or pop(), which are commonly found in lists.
+Q3. Which collection datatypes in python do not allow duplicate items? Write a code using a set to remove duplicates from the given list.
+Sets are the only collection datatype which not allow duplicate items. Sets are unordered collections of unique elements. 
+When you convert a list to a set, it automatically removes the duplicate items, as sets only store unique elements.
+* Example will be attached with .ipyb file.
+Q4. Explain the difference between the union() and update() methods for a set. Give an example of
+each method.
+Answer: Both union() and update() methods are used to combine two or more sets.
+union () Method:
+The union () method returns a new set that contains all the unique elements from the sets involved in the operation.
+It does not modify the original sets but instead creates a new set with the combined elements.
+It can take multiple sets as arguments and combine them into a single set without affecting the original sets.
+The union () method is also available using the | operator.
+update () Method:
+The update () method modifies the set on which it is called by adding all the elements from one or more sets.
+It does not return a new set; instead, it updates the calling set in place.
+It can take multiple sets as arguments and adds their elements to the set calling the update () method.
+* Example will be available at .ipyb file.
+Q5. What is a dictionary? Give an example. Also, state whether a dictionary is ordered or unordered.
+In Python, a dictionary is a built-in data structure that is used to store a collection of key-value pairs. Each key in a dictionary is associated with a specific value, allowing you to access and manipulate the values using their corresponding keys. Dictionaries are commonly used for tasks that involve mapping from keys to values, such as building lookup tables or storing data with named attributes.
+* Example will be at .ipyb file
+dictionaries are guaranteed to maintain the order of insertion, which means that the key-value pairs in a dictionary are stored in the order they were added.
+Q6. Can we create a nested dictionary? If so, please give an example by creating a simple one-level
+nested dictionary.
+Yes, you can create a nested dictionary in Python. A nested dictionary is a dictionary where the values associated with keys are themselves dictionaries. This allows you to organize data in a hierarchical structure, with multiple levels of key-value pairs.
+* Example will be at .ipyb file
+
+Q7. Using setdefault() method, create key named topics in the given dictionary and also add the value of the key as this list ['Python', 'Machine Learning’, 'Deep Learning']
+dict1 = {'language' : 'Python', 'course': 'Data Science Masters'}
+* Example will be at .ipyb file
+Q8. What are the three view objects in dictionaries? Use the three in-built methods in python to display these three view objects for the given dictionary.
+dict1 = {'Sport': 'Cricket' , 'Teams': ['India', 'Australia', 'England', 'South Africa', 'Sri Lanka', 'New Zealand']}
+there are three view objects that provide dynamic views of the dictionary's keys, values, and key-value pairs. These view objects allow you to access and interact with the contents of a dictionary without creating additional lists or sets, making them memory-efficient and suitable for various dictionary-related operations. 
+ dict_keys: This view object represents a dynamic view of the keys in the dictionary. It provides a read-only, set-like interface to the keys in the dictionary. You can use it for membership testing (checking if a key is present in the dictionary) and iterating over the keys. While it is similar to a set, it is not a set but rather a specialized view.
+dict_values: This view object represents a dynamic view of the values in the dictionary. It allows you to access the values in the dictionary and iterate through them. Like dict_keys, it provides a read-only view of the dictionary's values.
+dict_items: This view object represents a dynamic view of the key-value pairs (items) in the dictionary. It provides a way to iterate through the key-value pairs as tuples. This is particularly useful when you need both the key and value during iteration.
+* Example will be at .ipyb file
+
+
+
+

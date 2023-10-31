@@ -1,0 +1,78 @@
+Q1. Explain Class and Object with respect to Object-Oriented Programming. Give a suitable example.
+
+Answer: In object-oriented programming (OOP), a class and an object are fundamental concepts that allow you to model and organize code in a way that mimics real-world entities and their behaviors.
+
+Class:
+
+A class is a blueprint or template for creating objects (instances). It defines the structure and behavior that objects of that class will have.
+
+Object:
+
+An object is an instance of a class. It is a concrete realization of the class blueprint, with its own unique state and behavior. Objects are created based on the class definition, and they can be thought of as the individual entities that possess the characteristics and capabilities described by the class.
+
+Example is attached with .Ipyb file
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. Name the four pillars of OOPs.
+
+Answer: 1. Encapsulation
+        2. Inharitance
+        3. Polymorphism
+        4.Abstraction
+        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q3. Explain why the __init__() function is used. Give a suitable example.
+
+Answer: In Python, the __init__() function is a special method, also known as a constructor, that is used to initialize the attributes of an object when an instance of a class is created. It is automatically called when an object is instantiated from a class. The primary purpose of __init__() is to set the initial state of the object by assigning values to its attributes.
+
+Here's why the __init__() function is used:
+
+Initialization: It allows you to set the initial values of object attributes when the object is created. This ensures that the object is in a valid state from the beginning.
+
+Parameterization: You can pass arguments to the __init__() method when creating an object, allowing you to customize the initial state of each instance. This provides flexibility in constructing objects with different initial values.
+
+Encapsulation: It supports encapsulation by defining how object attributes are set within the class. You can control the visibility and accessibility of attributes based on the class design.
+
+Example is attached with .ipyb file.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q4. Why self is used in OOPs?
+
+Answer: self is a convention in Python that refers to the instance of a class. It is a reference to the current object being operated on. The use of self is essential for several reasons:
+
+Accessing Object Attributes: self allows you to access and manipulate the attributes (properties or member variables) of an object within the class methods. By using self, you specify that you want to work with the attributes of the specific instance the method is called on.
+
+Method Invocation: When you call a method on an object, you need to specify which instance of the class the method should operate on. self is used implicitly to refer to the current instance, allowing you to call methods on that specific instance.
+
+Instance Specificity: It distinguishes one instance from another. Each instance of a class has its own set of attributes, and self is used to access and modify those attributes within the methods of the class. This ensures that the methods operate on the correct object.
+
+Scoping: self helps to differentiate between local variables and instance variables. Without self, Python would assume that you are referring to a local variable instead of an instance variable.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q5. What is inheritance? Give an example for each type of inheritance.
+Answer: Inheritance is a fundamental concept in object-oriented programming (OOP) that allows you to create a new class by inheriting the attributes and methods of an existing class. Inheritance promotes code reuse and establishes a relationship between classes in a hierarchy. The class that is inherited from is called the base class or superclass, and the class that inherits from it is called the derived class or subclass.
+
+There are different types of inheritance, and I'll provide an example for each:
+
+Single Inheritance:
+
+Single inheritance occurs when a class inherits from only one base class.
+
+* Example attached with .ipyb file
+
+Multiple Inheritance:
+
+Multiple inheritance occurs when a class inherits from more than one base class.
+* Example attached with .ipyb file
+
+Multilevel Inheritance:
+
+Multilevel inheritance occurs when a class inherits from a base class, and then another class inherits from the derived class.
+* Example attached with .ipyb file
+
+Hierarchical Inheritance:
+
+Hierarchical inheritance occurs when multiple classes inherit from a single base class.
+* Example attached with .ipyb fileS

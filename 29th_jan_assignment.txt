@@ -1,0 +1,98 @@
+Answer1:-
+Python was created by Guido van Rossum. Guido van Rossum, a Dutch programmer, developed Python and released its first version in 1991.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer2:-
+Python is a versatile programming language that supports various programming paradigms, including:
+1. Procedural Programming
+2. Object-Oriented Programming (OOP)
+3. Functional Programming
+4. Dynamic Programming
+5. Scripting
+6. Data Analysis and Scientific Computing
+7. Machine Learning and Artificial Intelligence
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer3:-
+Yes, Python is a case-sensitive programming language when it comes to identifiers.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer4:-
+Correct extension is .py
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer5:-
+Python is often described as an interpreted language, but in reality, it uses a combination of both interpretation and compilation.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 6:-
+1. Conditional Statements(if, elif,else)
+2. Loop(For, while)
+3. Function
+4. Class
+5. Exceptation Handling
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 7:-
+'#' is use for single line comment.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 8:-
+sys.version
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 9:-
+Lambda
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 10:-
+Pip Installs Packages
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 11:-
+print()
+list()
+set()
+append()
+pop()
+push()
+len()
+index()
+map()
+lambda()
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer12:-
+79 characters
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 13:-
+1. Large and Active Community
+2. Readability and Ease of Learning
+3. Extensive Standard Library
+4. Versatility
+5. Cross-Platform Compatibility
+6. Open Source
+7. Rapid Development
+8. Data Science and Machine Learning
+9. Integration
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 14:-
+Memory management in Python involves the management of a private heap
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 15:-
+1. Download Python
+2. Run the Installer
+3. Installation Process
+4. Verify Installation
+
+Open the Command Prompt by searching for "cmd" in the Windows Start menu.
+In the Command Prompt, type python and press Enter. This should launch the Python interactive shell.
+
+If you see the Python prompt (>>>), Python is installed and working correctly.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer 16:-
+Yes, indentatiom is required in python.
